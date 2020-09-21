@@ -1,0 +1,47 @@
+TERMINAL VOLTAGES
+~~~~~~~~~~~~~~~~~
+
+VDD                                5.000V
+VSS                                0.00V
+
+TERMINAL LOGIC STATES
+~~~~~~~~~~~~~~~~~~~~~
+
+RA0/AN0/C1IN-                      FLT
+RA1/AN1/C2IN-                      FLT
+RA2/AN2/C2IN+/VREF-/CVREF          FLT
+RA3/AN3/C1IN+/VREF+                FLT
+RA4/T0CKI/C1OUT                    FLT
+RA5/AN4/$SS$/HLVDIN/C2OUT          FLT
+RA6/OSC2/CLKO                      FLT
+RA7/OSC1/CLKI                      FLT
+RB0/AN12/FLT0/INT0                 WHI
+RB1/AN10/INT1                      WHI
+RB2/AN8/INT2                       WHI
+RB3/AN9/CCP2A                      WHI
+RB4/KBI0/AN11                      WHI
+RB5/KBI1/PGM                       WHI
+RB6/KBI2/PGC                       WHI
+RB7/KBI3/PGD                       WHI
+RC0/T1OSO/T13CKI                   FLT
+RC1/T1OSI/CCP2B                    FLT
+RC2/CCP1/P1A                       FLT
+RC3/SCK/SCL                        FLT
+RC4/SDI/SDA                        FLT
+RC5/SDO                            SLO
+RC6/TX/CK                          SLO
+RC7/RX/DT                          SLO
+RD0/PSP0                           FLT
+RD1/PSP1                           FLT
+RD2/PSP2                           FLT
+RD3/PSP3                           FLT
+RD4/PSP4                           FLT
+RD5/PSP5/P1B                       FLT
+RD6/PSP6/P1C                       FLT
+RD7/PSP7/P1D                       FLT
+RE0/$RD$/AN5                       FLT
+RE1/$WR$/AN6                       FLT
+RE2/$CS$/AN7                       FLT
+RE3/$MCLR$/VPP                     PHI
+VDD                                PHI
+VSS                                PLO

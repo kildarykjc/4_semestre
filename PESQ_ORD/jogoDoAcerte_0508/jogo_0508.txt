@@ -1,0 +1,47 @@
+ # john Roshore 
+import random 
+computador = round(random.uniform(0, 100),2) 
+print('Acabei de pensar em um preço entre 0 e 100.00') 
+print('Será se você consegue acertar o preço, incluindo os centavos? ') acertou = False 
+palpites = 0 
+while not acertou: 
+jogador = float(input('Qual é seu palpite? ')) 
+palpites += 1 
+if jogador == computador: 
+acertou = True 
+else: 
+if jogador < computador: 
+print('Mais... Tente mais uma vez.') 
+elif jogador > computador: 
+print('Menos... Tente mais uma vez.') 
+print('Acertou com {} tentativas. Parabéns'.format(palpites)) 
+Acabei de pensar em um preço entre 0 e 100.00 
+Será se você consegue acertar o preço, incluindo os centavos? Qual é seu palpite? 50 
+Menos… Tente mais uma vez. 
+Qual é seu palpite? 25 
+Mais… Tente mais uma vez. 
+Qual é seu palpite? 37 
+Mais… Tente mais uma vez. 
+Qual é seu palpite? 43 
+Mais… Tente mais uma vez. 
+Qual é seu palpite? 47 
+Menos… Tente mais uma vez. 
+29
+Qual é seu palpite? 45 
+Menos… Tente mais uma vez. 
+Qual é seu palpite? 44 
+Mais… Tente mais uma vez. 
+Qual é seu palpite? 44.5 
+Menos… Tente mais uma vez. 
+Qual é seu palpite? 44.25 
+Menos… Tente mais uma vez. 
+Qual é seu palpite? 44.12 
+Mais… Tente mais uma vez. 
+Qual é seu palpite? 44.18 
+Mais… Tente mais uma vez. 
+Qual é seu palpite? 44.21 
+Menos… Tente mais uma vez. 
+Qual é seu palpite? 44.19 
+Mais… Tente mais uma vez. 
+Qual é seu palpite? 44.20 
+Acertou com 14 tentativas. Parabéns 
